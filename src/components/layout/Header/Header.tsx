@@ -2,7 +2,7 @@ import { Sun, Moon } from 'lucide-react'
 import { navInfo } from '@data/navInfo.ts'
 import { Link } from 'react-router-dom'
 import { useLocation } from 'react-router-dom'
-import { useTheme } from '@context/themeContext.tsx'
+import { useTheme } from '@/context/ThemeContext'
 
 export function Header() {
 	const { pathname } = useLocation()

@@ -1,4 +1,4 @@
-import { AnimateOnView } from '@ui/Animation/AnimateOnView'
+import { AnimateOnView } from '@components/ui/AnimateOnView'
 import { ContactForm } from './ContactForm'
 
 export function Contact() {

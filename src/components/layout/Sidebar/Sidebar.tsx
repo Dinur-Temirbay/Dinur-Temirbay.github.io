@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa'
 
 export function Sidebar() {
 	return (
@@ -10,7 +10,7 @@ export function Sidebar() {
 					alt='Profile Picture'
 					className='w-40 md:w-60 rounded-md mx-auto'
 				/>
-				<h1 className='mt-5 text-2xl md:text-4xl font-bold text-white dark:text-black'>
+				<h1 className='mt-5 text-xl md:text-4xl font-bold text-white dark:text-black'>
 					Dinur Temirbay
 				</h1>
 				<p className='text-white text-sm md:text-base mt-2 dark:text-black'>
@@ -23,19 +23,22 @@ export function Sidebar() {
 					<a href='https://www.linkedin.com/in/dinur-temirbay-295662274/'>
 						<FaLinkedin className='text-2xl text-white cursor-pointer transition duration-300 hover:scale-110 dark:text-black' />
 					</a>
+					<a href='https://wa.me/7478265696'>
+						<FaWhatsapp className='text-2xl text-white cursor-pointer transition duration-300 hover:scale-110 dark:text-black' />
+					</a>
 				</div>
 
 				<div className='flex justify-center gap-3 mt-10'>
 					<Link
 						to='/contact'
-						className='inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded transition-colors dark:text-black dark:bg-gray-400 dark:hover:bg-gray-500'
+						className='text-sm md:text-base inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded transition-colors dark:text-black dark:bg-gray-400 dark:hover:bg-gray-500'
 					>
 						Contact Me
 					</Link>
 					<a
 						href='/myResume.pdf'
 						download='Dinur_Temirbay_Resume.pdf'
-						className='inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded transition-colors dark:text-black dark:bg-gray-400 dark:hover:bg-gray-500'
+						className='text-sm md:text-base inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded transition-colors dark:text-black dark:bg-gray-400 dark:hover:bg-gray-500'
 					>
 						Download CV
 					</a>

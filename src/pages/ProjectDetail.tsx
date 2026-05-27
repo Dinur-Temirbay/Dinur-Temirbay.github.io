@@ -1,6 +1,6 @@
-import { AnimateOnView } from '@/components/ui/Animation/AnimateOnView'
+import { AnimateOnView } from '@components/ui/AnimateOnView'
 import { useParams } from 'react-router-dom'
-import { projectsInfo } from '@/data/projectsInfo'
+import { projectsInfo } from '@data/projectsInfo'
 
 export function ProjectDetail() {
 	const { id } = useParams()

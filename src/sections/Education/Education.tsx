@@ -1,4 +1,4 @@
-import { AnimateOnView } from '@ui/Animation/AnimateOnView.tsx'
+import { AnimateOnView } from '@components/ui/AnimateOnView'
 import { educationInfo } from '@data/educationInfo.ts'
 
 export function Education() {

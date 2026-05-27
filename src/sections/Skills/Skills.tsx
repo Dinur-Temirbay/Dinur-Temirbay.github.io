@@ -1,6 +1,6 @@
 import { Marquee } from './Marquee.tsx'
 import { skillsRow1, skillsRow2 } from '@data/skillsList.ts'
-import { AnimateOnView } from '@ui/Animation/AnimateOnView.tsx'
+import { AnimateOnView } from '@components/ui/AnimateOnView.tsx'
 
 export function Skills() {
 	return (

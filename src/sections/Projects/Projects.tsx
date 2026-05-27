@@ -1,5 +1,5 @@
 import { projectsInfo } from '@data/projectsInfo.ts'
-import { AnimateOnView } from '@ui/Animation/AnimateOnView.tsx'
+import { AnimateOnView } from '@components/ui/AnimateOnView'
 import { Link } from 'react-router-dom'
 
 export function Projects() {
@@ -8,14 +8,10 @@ export function Projects() {
 			<h2 className='text-center md:text-left text-white text-4xl font-bold dark:text-black'>
 				Recent <b className='text-cyan-600'>Projects</b>
 			</h2>
-			<div className='mt-8 flex flex-wrap justify-center md:justify-start gap-5'>
+			<div className='mt-8 grid grid-cols-1 md:grid-cols-2 gap-5 w-full'>
 				{projectsInfo.map((project, index) => (
-					<Link
-						key={index}
-						to={`/projects/${project.id}`}
-						className='w-full md:w-[40%]'
-					>
-						<div className='rounded-lg bg-gray-800 cursor-pointer text-white overflow-hidden dark:text-black dark:bg-gray-200'>
+					<Link key={index} to={`/projects/${project.id}`} className='w-full '>
+						<div className='rounded-lg bg-gray-800 cursor-pointer text-white overflow-hidden dark:text-black dark:bg-gray-200 h-full'>
 							<img
 								src={project.img}
 								alt={project.title}

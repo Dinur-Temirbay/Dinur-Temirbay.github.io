@@ -1,13 +1,10 @@
-import { AnimateOnView } from '@ui/Animation/AnimateOnView.tsx'
+import { AnimateOnView } from '@components/ui/AnimateOnView'
+import { AboutHeader } from './AboutHeader.tsx'
 
 export function About() {
 	return (
 		<AnimateOnView>
-			<h1 className='text-center md:text-left text-4xl md:text-5xl text-white font-bold mt-10 md:mt-0 dark:text-black'>
-				Transforming Your
-				<br />
-				Ideas into <b className='text-cyan-600'>Reality</b>
-			</h1>
+			<AboutHeader />
 			<p className='text-white mt-3 text-sm md:text-base text-center md:text-left dark:text-black'>
 				I'm a front-end developer who builds user-friendly, modern websites.
 				<br />I love learning new things and turning ideas into high-quality
