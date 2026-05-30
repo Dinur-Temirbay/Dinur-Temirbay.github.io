@@ -32,7 +32,8 @@
 			"@sections/*": ["src/sections/*"],
 			"@pages/*": ["src/pages/*"],
 			"@data/*": ["src/data/*"],
-			"@context/*": ["src/context/*"]
+			"@context/*": ["src/context/*"],
+			"@hooks/*": ["src/hooks/*"]
 		}
 	},
 	"include": ["src"]
