@@ -1,32 +1,21 @@
 import { AnimateOnView } from '@components/ui/AnimateOnView'
-import { AboutHeader } from './AboutHeader.tsx'
-
 export function About() {
 	return (
 		<AnimateOnView>
-			<AboutHeader />
-			<p className='text-white mt-3 text-sm md:text-base text-center md:text-left dark:text-black'>
-				I'm a front-end developer who builds user-friendly, modern websites.
-				<br />I love learning new things and turning ideas into high-quality
-				products.
-			</p>
-			<div className='mt-10 text-white flex justify-center md:justify-start gap-6 md:gap-10 dark:text-black'>
-				<div>
-					<span className='text-4xl md:text-6xl font-semibold'>+1.6</span>
-					<p className='text-sm mt-1'>
-						YEARS OF
-						<br />
-						EXPERIENCE
+			<div className='container mx-auto mt-30 flex md:flex-row flex-col items-center justify-between'>
+				<div className=''>
+					<h2 className='text-white text-3xl font-bold text-center md:text-left dark:text-black'>
+						About Me
+					</h2>
+					<div className='border w- h-1 bg-cyan-700 mt-3'></div>
+					<p className='text-white mt-3 text-sm md:text-base text-center md:text-left dark:text-black'>
+						Hey there! I'm Dinur, a front-end developer who builds
+						user-friendly, modern websites.
+						<br />I love learning new things and turning ideas into high-quality
+						products.
 					</p>
 				</div>
-				<div>
-					<span className='text-4xl md:text-6xl font-semibold'>+13</span>
-					<p className='text-sm mt-1'>
-						PET PROJECTS
-						<br />
-						COMPLETED
-					</p>
-				</div>
+				<div className=''></div>
 			</div>
 		</AnimateOnView>
 	)

@@ -21,7 +21,11 @@ export const projectsInfo = [
 		tech: 'React, TS, TailWind',
 		shortDescr: 'Personal Finance App',
 		desc: 'Track your expenses and manage your budget effectively.A comprehensive personal finance dashboard built with strict TypeScript typing to ensure reliable data handling and mathematical accuracy. The app implements complex logic for real-time balance calculations, expense categorization, and budget tracking. It showcases advanced React patterns for managing transaction history and visualizing financial health through a clean, data-driven interface.',
-		img: '/expense-tracker.png',
+		img: [
+			'/expence-tracker/expence-tracker1.png',
+			'/expence-tracker/expence-tracker2.png',
+			'/expence-tracker/expence-tracker3.png',
+		],
 	},
 	{
 		id: 'todo-list',

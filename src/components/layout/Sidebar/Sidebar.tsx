@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa'
 
 export function Sidebar() {
@@ -25,22 +24,6 @@ export function Sidebar() {
 					</a>
 					<a href='https://wa.me/7478265696'>
 						<FaWhatsapp className='text-2xl text-white cursor-pointer transition duration-300 hover:scale-110 dark:text-black' />
-					</a>
-				</div>
-
-				<div className='flex justify-center gap-3 mt-10'>
-					<Link
-						to='/contact'
-						className='text-sm md:text-base inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded transition-colors dark:text-black dark:bg-gray-400 dark:hover:bg-gray-500'
-					>
-						Contact Me
-					</Link>
-					<a
-						href='/myResume.pdf'
-						download='Dinur_Temirbay_Resume.pdf'
-						className='text-sm md:text-base inline-block bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-2 px-4 rounded transition-colors dark:text-black dark:bg-gray-400 dark:hover:bg-gray-500'
-					>
-						Download CV
 					</a>
 				</div>
 			</div>

@@ -12,7 +12,7 @@ export function ProjectDetail() {
 	return (
 		<AnimateOnView delay={0.4}>
 			<img
-				src={project.img}
+				src={Array.isArray(project.img) ? project.img[0] : project.img}
 				alt={project.title}
 				className='w-auto rounded-lg'
 			/>
