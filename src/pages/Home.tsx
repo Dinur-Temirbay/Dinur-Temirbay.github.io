@@ -4,8 +4,6 @@ import { Promo } from '@/sections/Promo/Promo'
 import { About } from '@/sections/About/About'
 import { Projects } from '@sections/Projects/Projects.tsx'
 import { Experience } from '@sections/Experience/Experience.tsx'
-import { Education } from '@sections/Education/Education.tsx'
-import { Skills } from '@sections/Skills/Skills.tsx'
 import { Contact } from '@sections/Contact/Contact.tsx'
 
 export function Home() {
@@ -18,8 +16,6 @@ export function Home() {
 			<Projects />
 			<Experience />
 			<Contact />
-			{/* <Skills />
-			<Education /> */}
 		</>
 	)
 }
