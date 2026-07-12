@@ -7,7 +7,7 @@ export function Header() {
 	return (
 		<nav className='container mx-auto fixed inset-x-0 top-0 z-50 w-full flex items-center justify-between gap-5 md:gap-8 p-4 bg-[#16171d]'>
 			<div className='text-xl font-bold text-white dark:text-black'>
-				<a href='#home'>dinur.dev</a>
+				<a href='/'>dinur.dev</a>
 			</div>
 			<ul className='hidden md:flex gap-6 text-white font-bold text-md dark:text-black'>
 				<a href='/'>

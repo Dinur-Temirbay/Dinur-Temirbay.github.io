@@ -4,6 +4,29 @@ html {
 	scroll-behavior: smooth;
 }
 
+body {
+	cursor: none;
+}
+
+a {
+	cursor: none;
+}
+
+.custom-cursor {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 25px;
+	height: 25px;
+	border: 2px solid #22d3ee;
+	border-radius: 100%;
+	pointer-events: none;
+	transform: translate3d(-50%, -50%, 0);
+	transition: transform 0.08s ease;
+	z-index: 9999;
+	mix-blend-mode: difference;
+}
+
 @layer base {
 	html {
 		@apply bg-[#16171d];

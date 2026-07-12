@@ -1,8 +1,13 @@
 export function MyCode() {
 	return (
 		<>
-			<div className='bg-slate-800/50 p-3 border-b border-cyan/10'>
-				<p className='text-white font-light'>dinur.js</p>
+			<div className='bg-slate-800/50 p-3 border-b border-cyan/10 flex gap-4 items-center'>
+				<div className='flex gap-1'>
+					<div className='w-4 h-4 bg-red-400 rounded-full'></div>
+					<div className='w-4 h-4 bg-yellow-400 rounded-full'></div>
+					<div className='w-4 h-4 bg-green-400 rounded-full'></div>
+				</div>
+				<p className='text-gray-300 text-sm font-light'>dinur.js</p>
 			</div>
 			<div className='p-7 overflow-x-auto'>
 				<pre className='whitespace-pre text-lg font-mono leading-6 text-white'>

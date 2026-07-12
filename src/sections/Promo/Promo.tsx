@@ -4,7 +4,7 @@ import { AnimateOnView } from '@components/ui/AnimateOnView'
 export function Promo() {
 	return (
 		<AnimateOnView>
-			<div className='max-w-7xl mx-auto px-4 flex md:flex-row flex-col items-center justify-between mt-30'>
+			<section className='max-w-7xl mx-auto px-4 flex md:flex-row flex-col items-center justify-between mt-30'>
 				<div className='md:text-left text-center flex flex-col gap-6'>
 					<p className='text-white text-xl'>Hello World!</p>
 					<h1 className='text-white md:text-6xl font-bold text-4xl leading-normal'>
@@ -28,9 +28,13 @@ export function Promo() {
 					</div>
 				</div>
 				<div>
-					<img src='promo.png' alt='Profile' className='w-xl h-xl' />
+					<img
+						src='promo.png'
+						alt='Profile'
+						className='w-xl h-xl duration-300 hover:scale-105'
+					/>
 				</div>
-			</div>
+			</section>
 		</AnimateOnView>
 	)
 }
