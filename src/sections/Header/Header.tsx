@@ -19,6 +19,9 @@ export function Header() {
 				<a href='#projects'>
 					<li>Projects</li>
 				</a>
+				<a href='#experience'>
+					<li>Experience</li>
+				</a>
 				<a href='#skills'>
 					<li>Skills</li>
 				</a>
@@ -28,9 +31,9 @@ export function Header() {
 			</ul>
 			<button onClick={toggleTheme}>
 				{theme === 'dark' ? (
-					<Sun className='text-black hover:rotate-180 transition duration-500 cursor-pointer' />
+					<Sun className='text-black hover:rotate-180 transition duration-500 cursor-none' />
 				) : (
-					<Moon className='text-white hover:rotate-180 transition duration-500 cursor-pointer' />
+					<Moon className='text-white hover:rotate-180 transition duration-500 cursor-none' />
 				)}
 			</button>
 		</nav>

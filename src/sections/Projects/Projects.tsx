@@ -4,8 +4,8 @@ import { FaGithub } from 'react-icons/fa'
 
 export function Projects() {
 	return (
-		<AnimateOnView delay={0.2}>
-			<section id='projects' className='max-w-7xl mx-auto px-20 mt-40'>
+		<AnimateOnView delay={0.4}>
+			<section id='projects' className='max-w-7xl mx-auto px-15 mt-40'>
 				<h2 className='text-white text-4xl font-bold text-center dark:text-black border-b-4 border-cyan-700 w-fit leading-normal mx-auto'>
 					Recent Projects
 				</h2>

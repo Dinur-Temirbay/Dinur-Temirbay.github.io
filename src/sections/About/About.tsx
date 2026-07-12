@@ -8,7 +8,7 @@ export function About() {
 				className='max-w-7xl mx-auto px-4 mt-40 flex md:flex-row flex-col items-center gap-10'
 				id='about'
 			>
-				<div className='w-full md:w-1/2 md:text-left text-center flex flex-col items-center md:items-start gap-6'>
+				<div className='w-full md:w-1/2 md:text-left text-center flex flex-col items-center md:items-start gap-8'>
 					<h2 className='text-white text-4xl font-bold text-center md:text-left dark:text-black border-b-4 border-cyan-700 w-fit leading-normal'>
 						About Me
 					</h2>
