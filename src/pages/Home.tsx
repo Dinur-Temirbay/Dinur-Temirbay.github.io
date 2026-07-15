@@ -1,5 +1,6 @@
 import { CustomCursor } from '@/components/ui/CustomCursor'
 import { BackToTop } from '@/components/ui/BackToTop'
+import { SideSocials } from '@/components/ui/SideSocials'
 import { Header } from '@/sections/Header/Header'
 import { Promo } from '@/sections/Promo/Promo'
 import { About } from '@/sections/About/About'
@@ -14,6 +15,7 @@ export function Home() {
 		<>
 			<CustomCursor />
 			<BackToTop />
+			<SideSocials />
 			<Header />
 			<Promo />
 			<About />

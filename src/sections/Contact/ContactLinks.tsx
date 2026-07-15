@@ -47,26 +47,3 @@ export function ContactLinks() {
 		</>
 	)
 }
-
-/* <a
-					href='https://t.me/dinternity'
-					target='_blank'
-					className='flex gap-4 items-center'
-				>
-					<FaTelegramPlane className='w-6 h-6 text-gray-500' />
-					<div>
-						<p className='text-gray-500 text-xs'>Telegram</p>
-						<span className='text-white'>@dinternity</span>
-					</div>
-				</a> */
-/* <a
-					href='https://wa.me/7478265696'
-					target='_blank'
-					className='flex gap-4 items-center'
-				>
-					<FaWhatsapp className='w-6 h-6 text-gray-500' />
-					<div>
-						<p className='text-gray-500 text-xs'>WhatsApp</p>
-						<span className='text-white'>dinur</span>
-					</div>
-				</a> */
