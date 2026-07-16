@@ -21,10 +21,9 @@ a {
 	border: 2px solid #22d3ee;
 	border-radius: 100%;
 	pointer-events: none;
-	transform: translate3d(-50%, -50%, 0);
+	translate: -50% -50%;
 	transition: transform 0.08s ease;
 	z-index: 9999;
-	mix-blend-mode: difference;
 }
 
 @layer base {

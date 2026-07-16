@@ -2,7 +2,7 @@ import { SideSocialsInfo } from '@/data/sideSocialsInfo'
 
 export function SideSocials() {
 	return (
-		<div className='fixed left-0 top-1/2 -translate-y-1/2 flex flex-col gap-1 z-50 -translate-x-28'>
+		<div className='hidden fixed left-0 top-1/2 -translate-y-1/2 md:flex flex-col gap-1 z-50 -translate-x-28'>
 			{SideSocialsInfo.map(social => {
 				const Icon = social.icon
 				return (

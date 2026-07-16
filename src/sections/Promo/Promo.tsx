@@ -13,7 +13,7 @@ export function Promo() {
 					<PromoText />
 					<div className='flex md:justify-start justify-center gap-3 mt-10'>
 						<a
-							href='/contact'
+							href='#contact'
 							className='text-sm md:text-base bg-cyan-700 text-white font-bold py-3 px-8 rounded transition duration-300 dark:text-black dark:bg-gray-400 hover:-translate-y-1'
 						>
 							Contact Me
