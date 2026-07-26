@@ -22,7 +22,7 @@ export function PromoText() {
 		<h1 className='text-center md:text-left text-2xl md:text-4xl text-white font-pacifico  mt-10 md:mt-0 dark:text-black'>
 			I turn ideas into{' '}
 			<span
-				className={`text-cyan-600 transition-opacity duration-300 ${fade ? 'opacity-100' : 'opacity-0'}`}
+				className={`text-cyan-600 font-bold transition-opacity duration-300 ${fade ? 'opacity-100' : 'opacity-0'}`}
 			>
 				{words[index]}
 			</span>

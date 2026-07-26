@@ -1,4 +1,3 @@
-// Импортируем нужные SVG-иконки из пакета Simple Icons
 import {
 	SiHtml5,
 	SiJavascript,
@@ -11,7 +10,6 @@ import {
 	SiExpress,
 	SiMongodb,
 	SiPostgresql,
-	SiMysql,
 	SiGit,
 	SiFigma,
 	SiPostman,
@@ -21,12 +19,18 @@ import {
 	SiExpo,
 	SiVite,
 	SiFirebase,
+	SiReactrouter,
+	SiVercel,
 } from 'react-icons/si'
 import { FaCss3Alt } from 'react-icons/fa'
+import { FaGear } from 'react-icons/fa6'
+import { LuMonitor, LuServer, LuWrench } from 'react-icons/lu'
+import type { SkillGroup } from '@/types/index.ts'
 
-export const skillsList = [
+export const skillsList: SkillGroup[] = [
 	{
 		title: 'Frontend',
+		icon: LuMonitor,
 		skills: [
 			{ name: 'Html', icon: SiHtml5, color: '#E34F26' },
 			{ name: 'Css', icon: FaCss3Alt, color: '#1572B6' },
@@ -39,22 +43,26 @@ export const skillsList = [
 			{ name: 'Bootstrap', icon: SiBootstrap, color: '#7952B3' },
 			{ name: 'React Native', icon: SiReact, color: '#61DAFB' },
 			{ name: 'Expo', icon: SiExpo, color: '#FFFFFF' },
+			{ name: 'React Router', icon: SiReactrouter, color: '#F44250' },
 		],
 	},
 	{
-		title: 'Backend',
+		title: 'Backend & infra',
+		icon: LuServer,
 		skills: [
 			{ name: 'Node.js', icon: SiNodedotjs, color: '#339933' },
 			{ name: 'Express.js', icon: SiExpress, color: '#FFFFFF' },
 			{ name: 'MongoDB', icon: SiMongodb, color: '#47A248' },
 			{ name: 'PostgreSQL', icon: SiPostgresql, color: '#4169E1' },
-			{ name: 'MySQL', icon: SiMysql, color: '#4479A1' },
 			{ name: 'Firebase', icon: SiFirebase, color: '#FFCA28' },
 			{ name: 'Docker', icon: SiDocker, color: '#2496ED' },
+			{ name: 'Vercel', icon: SiVercel, color: '#000000' },
+			{ name: 'REST APIs', icon: FaGear, color: '#22D3EE' },
 		],
 	},
 	{
 		title: 'Tools',
+		icon: LuWrench,
 		skills: [
 			{ name: 'Git', icon: SiGit, color: '#F05032' },
 			{ name: 'Figma', icon: SiFigma, color: '#F24E1E' },

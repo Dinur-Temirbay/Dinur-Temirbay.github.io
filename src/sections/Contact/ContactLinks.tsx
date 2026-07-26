@@ -13,10 +13,12 @@ export function ContactLinks() {
 							href={social.href}
 							className='flex gap-4 items-center group'
 						>
-							<Icon className='w-6 h-6 text-gray-500 group-hover:text-cyan-400 transition-colors' />
+							<Icon className='w-6 h-6 text-gray-500 dark:text-black group-hover:text-cyan-400 transition-colors' />
 							<div>
-								<p className='text-gray-500 text-xs'>{social.name}</p>
-								<span className='text-white text-sm font-bold group-hover:text-cyan-400 transition-colors'>
+								<p className='text-gray-500 text-xs dark:text-black'>
+									{social.name}
+								</p>
+								<span className='text-white text-sm font-bold group-hover:text-cyan-400 transition-colors dark:text-black'>
 									{social.descr}
 								</span>
 							</div>

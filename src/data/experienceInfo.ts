@@ -1,4 +1,6 @@
-export const experienceInfo = [
+import type { Experience } from '@/types/index.ts'
+
+export const experienceInfo: Experience[] = [
 	{
 		isCurrentJob: true,
 		role: 'Service Desk',

@@ -1,4 +1,6 @@
-export const projectsInfo = [
+import type { Project } from '@/types/index.ts'
+
+export const projectsInfo: Project[] = [
 	{
 		id: 'wishbone',
 		name: 'Wishbone',
@@ -6,7 +8,7 @@ export const projectsInfo = [
 		shortDescr:
 			'Interactive architecture showcase featuring property galleries, construction phases, and integrated contact forms with immersive UX design',
 		desc: 'Architectural design concepts and modern housing solutions. An interactive showcase of architectural concepts featuring detailed property galleries, construction phase modules, and integrated contact forms. The primary goal was to create a seamless user experience (UX) that immerses potential clients in the studio`s design philosophy through interactive elements and a refined interface.',
-		img: '/wishbone.png',
+		img: '/wishbone/wishbone.png',
 		link: 'https://github.com/Dinur-Temirbay/wishbone',
 	},
 	{
@@ -38,5 +40,15 @@ export const projectsInfo = [
 		desc: 'Task management: add, edit, complete and delete with a clean UI.',
 		img: '/todo-list/todo-list.png',
 		link: 'https://github.com/Dinur-Temirbay/ToDo-List',
+	},
+	{
+		id: 'qr-generator',
+		name: 'QR Generator',
+		tech: 'Html, Css, JavaScript',
+		shortDescr:
+			'Lightweight utility for instant custom QR code generation from links or text with real-time encoding and download capability',
+		desc: 'Generate customized QR codes instantly from any URLs or text inputs. A lightweight, client-side utility built with pure JavaScript for fast, on-the-fly QR code generation. The application features a clean, minimal user interface that handles real-time encoding, input validation, and offers instant download capabilities for the generated images, ensuring smooth and seamless tool utility.',
+		img: '/qr-generator/qr-generator.png',
+		link: 'https://github.com/Dinur-Temirbay/qr-generator',
 	},
 ]
