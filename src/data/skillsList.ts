@@ -23,6 +23,7 @@ import {
 	SiVercel,
 	SiClaude,
 	SiGithubcopilot,
+	SiShadcnui,
 } from 'react-icons/si'
 import { FaCss3Alt, FaBrain } from 'react-icons/fa'
 import { FaGear } from 'react-icons/fa6'
@@ -41,8 +42,9 @@ export const skillsList: SkillGroup[] = [
 			{ name: 'TypeScript', icon: SiTypescript, color: '#3178C6' },
 			{ name: 'Tailwind CSS', icon: SiTailwindcss, color: '#06B6D4' },
 			{ name: 'Sass', icon: SiSass, color: '#CC6699' },
-			{ name: 'ReactHookForm', icon: SiReacthookform, color: '#EC5990' },
 			{ name: 'Bootstrap', icon: SiBootstrap, color: '#7952B3' },
+			{ name: 'Shadcn UI', icon: SiShadcnui, color: '#FFFFFF' },
+			{ name: 'ReactHookForm', icon: SiReacthookform, color: '#EC5990' },
 			{ name: 'React Native', icon: SiReact, color: '#61DAFB' },
 			{ name: 'Expo', icon: SiExpo, color: '#FFFFFF' },
 			{ name: 'React Router', icon: SiReactrouter, color: '#F44250' },
