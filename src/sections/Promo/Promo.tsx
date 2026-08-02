@@ -4,7 +4,7 @@ import { AnimateOnView } from '@components/ui/AnimateOnView'
 export function Promo() {
 	return (
 		<AnimateOnView delay={0.2}>
-			<section className='max-w-7xl mx-auto px-4 flex md:flex-row flex-col items-center justify-between mt-30'>
+			<section className='max-w-7xl mx-auto px-6 md:px-4 flex md:flex-row flex-col items-center justify-between mt-30'>
 				<div className='md:text-left text-center flex flex-col gap-6'>
 					<p className='text-white text-xl dark:text-black'>Hello World!</p>
 					<h1 className='text-white dark:text-black md:text-6xl font-bold text-4xl leading-normal'>

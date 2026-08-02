@@ -1,15 +1,11 @@
 @import 'tailwindcss';
 
+* {
+	cursor: none !important;
+}
+
 html {
 	scroll-behavior: smooth;
-}
-
-body {
-	cursor: none;
-}
-
-a {
-	cursor: none;
 }
 
 .custom-cursor {

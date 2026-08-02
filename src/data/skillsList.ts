@@ -21,8 +21,10 @@ import {
 	SiFirebase,
 	SiReactrouter,
 	SiVercel,
+	SiClaude,
+	SiGithubcopilot,
 } from 'react-icons/si'
-import { FaCss3Alt } from 'react-icons/fa'
+import { FaCss3Alt, FaBrain } from 'react-icons/fa'
 import { FaGear } from 'react-icons/fa6'
 import { LuMonitor, LuServer, LuWrench } from 'react-icons/lu'
 import type { SkillGroup } from '@/types/index.ts'
@@ -58,6 +60,14 @@ export const skillsList: SkillGroup[] = [
 			{ name: 'Docker', icon: SiDocker, color: '#2496ED' },
 			{ name: 'Vercel', icon: SiVercel, color: '#000000' },
 			{ name: 'REST APIs', icon: FaGear, color: '#22D3EE' },
+		],
+	},
+	{
+		title: 'Ai',
+		icon: FaBrain,
+		skills: [
+			{ name: 'Claude Code', icon: SiClaude, color: '#D97757' },
+			{ name: 'Copilot', icon: SiGithubcopilot, color: '#F0F6FC' },
 		],
 	},
 	{
