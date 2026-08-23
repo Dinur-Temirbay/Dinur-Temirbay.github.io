@@ -3,7 +3,7 @@ import type { Experience } from '@/types/index.ts'
 export const experienceInfo: Experience[] = [
 	{
 		isCurrentJob: true,
-		role: 'Service Desk',
+		role: 'Service Desk Engineer',
 		company: 'Energy Solution Center.',
 		duration: 'March 2025 - Present (1 year 5 months)',
 		descr:

@@ -18,12 +18,12 @@ import {
 	SiDocker,
 	SiExpo,
 	SiVite,
-	SiFirebase,
 	SiReactrouter,
 	SiVercel,
 	SiClaude,
 	SiGithubcopilot,
 	SiShadcnui,
+	SiPrisma,
 } from 'react-icons/si'
 import { FaCss3Alt, FaBrain } from 'react-icons/fa'
 import { FaGear } from 'react-icons/fa6'
@@ -58,10 +58,10 @@ export const skillsList: SkillGroup[] = [
 			{ name: 'Express.js', icon: SiExpress, color: '#FFFFFF' },
 			{ name: 'MongoDB', icon: SiMongodb, color: '#47A248' },
 			{ name: 'PostgreSQL', icon: SiPostgresql, color: '#4169E1' },
-			{ name: 'Firebase', icon: SiFirebase, color: '#FFCA28' },
 			{ name: 'Docker', icon: SiDocker, color: '#2496ED' },
 			{ name: 'Vercel', icon: SiVercel, color: '#000000' },
 			{ name: 'REST APIs', icon: FaGear, color: '#22D3EE' },
+			{ name: 'Prisma', icon: SiPrisma, color: '#FFFFFF' },
 		],
 	},
 	{

@@ -22,16 +22,16 @@ export const projectsInfo: Project[] = [
 		link: 'https://github.com/Dinur-Temirbay/weather-app',
 	},
 	{
-		id: 'Expense-Tracker',
-		name: 'Expense Tracker',
-		tech: 'React.js, TypeScript, TailWindCSS, Node.js, Express.jz, MongoDB',
+		id: 'Spendly',
+		name: 'Spendly',
+		tech: 'React.js, TypeScript, TailWindCSS, Node.js, Express.js, MongoDB',
 		shortDescr:
 			'Personal finance dashboard with expense categorization, real-time balance calculations, budget tracking and data-driven analytics',
 		desc: 'Track your expenses and manage your budget effectively.A comprehensive personal finance dashboard built with strict TypeScript typing to ensure reliable data handling and mathematical accuracy. The app implements complex logic for real-time balance calculations, expense categorization, and budget tracking. It showcases advanced React patterns for managing transaction history and visualizing financial health through a clean, data-driven interface.',
 		images: [
-			'/expense-tracker/expense-tracker1.png',
-			'/expense-tracker/expense-tracker2.png',
-			'/expense-tracker/expense-tracker3.png',
+			'/spendly/spendly1.png',
+			'/spendly/spendly2.png',
+			'/spendly/spendly3.png',
 		],
 		link: 'https://github.com/Dinur-Temirbay/Expense-tracker',
 	},
